@@ -1,0 +1,138 @@
+/* universal selection */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier, monospace;
+}
+
+.logo-img{
+    width: 300px;
+    height: auto;
+}
+#landing-page{
+    max-width: 100%;
+    align-items: center;
+    margin: 5rem;
+    overflow: hidden;
+    color: white;
+}
+#nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.50);
+    align-items: center;
+    padding: 1rem;
+}
+body{
+    width: 100%;
+    background: rgba(0, 0, 0, 0.90);
+
+}
+#nav-bar ul li a{
+    color: rgba(0, 0, 0, 0.90);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 1rem;
+    
+}
+li{
+    list-style: none;
+}
+#nav-bar ul{
+    display: flex;
+}
+
+#landing-page .mail-box{
+    text-align: center;
+    padding: 2.5rem;
+    padding: 1rem;
+}
+.mail-box input{
+    display: block;
+    align-items: center;
+    margin-top: .7rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1rem;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+    padding: 15px;
+}
+.mail-box a{
+    background: rgba(255, 255, 0, 0.90);
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+#features .feature{
+    display: flex;
+    margin-top: 30px;
+}
+#features .feature i{
+    color: rgba(255, 255, 0, 0.90);
+    font-size: 50px;
+    margin-right: 20px;
+}
+#features .feature h2{
+    color: rgba(12, 241, 241, 0.747);
+}
+#footer{
+    justify-content: space-between;
+    background: rgba(255, 255, 255, 0.50);
+    text-align: center;
+    padding: 1rem;
+}
+#footer a{
+    color: rgba(0, 0, 0, 0.90);
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+.pricing{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
+    gap: 1.5rem;
+    /* display: flex; */
+    /* justify-content: center; */
+}
+.box{
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    margin: 30px;
+    padding: auto;
+    text-align: center;
+}
+.bbtn{
+    text-decoration: none;
+    background: rgba(255, 255, 0, 0.90);
+    border-radius: 5px;
+    color: black;
+    font-size: 1.3rem;
+}
+.box h3{
+    background: rgba(255, 255, 0, 0.10);
+    margin-bottom: 1rem;
+    padding: 10px;
+}
+.box h2{
+    margin-bottom: 1rem;
+}
+.box p{
+    margin-bottom: 1rem;
+}
+
+
+#how-it-works{
+    text-align: center;
+}
+#how-it-works #video{
+    margin: 3rem;
+    width: 480px;
+    height: 320px;
+
+}
